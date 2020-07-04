@@ -5,7 +5,10 @@ import java.util.List;
 import com.accp.student.Subject;
 
 public interface ISubService {
-	
+	/**
+	 * Èöµ©
+	 * @return
+	 */
 		public List<Subject> query();
 		public Subject queryById(Integer id);
 		public boolean insert(Subject sub);
